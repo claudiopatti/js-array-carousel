@@ -7,3 +7,60 @@ reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/* .container .sizeImg {
+    margin: auto;
+    
+} */
+
+.container  {
+    height: 100vh;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizeImgActive {
+    display: block;
+    position: relative;
+}
+
+.images {
+    width: 700px;
+}
+.sizeImg {
+    position: relative;
+    display: none;
+}
+
+img {
+    height: 300px;
+    width: 700px;   
+}
+
+.arrow {
+    background-color: gray;
+    border-radius: 50%;
+    min-height: 20px;
+    min-width: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 350px;
+}
+
+/* .arrow > i {
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+} */
+
+.arrowUp {
+    top: 15px;
+}
+
+.arrowDown {
+    bottom: 18px;
+}
