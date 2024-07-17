@@ -14,25 +14,28 @@ reset
 } */
 
 .container  {
-    height: 100vh;
+    
     width: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.images {
+    width: 700px;
+    /* position: relative; */
+    
+}
+.sizeImg {
+    position: relative;
+    display: none;
 }
 
 .sizeImgActive {
     display: block;
     position: relative;
-}
-
-.images {
-    width: 700px;
-}
-.sizeImg {
-    position: relative;
-    display: none;
 }
 
 img {
@@ -48,7 +51,8 @@ img {
     text-align: center;
     line-height: 20px;
     position: absolute;
-    left: 350px;
+    left: 450px;
+    z-index: 1;
 }
 
 /* .arrow > i {
@@ -62,5 +66,5 @@ img {
 }
 
 .arrowDown {
-    bottom: 18px;
+    bottom: 450px;
 }
